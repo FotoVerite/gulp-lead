@@ -1,5 +1,28 @@
 # Changelog
 
+## 1.0.0 (2026-10-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* Normalize repository, dropping Node <22.15.0 ([#12](https://github.com/FotoVerite/gulp-lead/issues/12))
+* Remove piping to a Writable and instead call resume on stream
+
+### Features
+
+* Remove piping to a Writable and instead call resume on stream ([27324d6](https://github.com/FotoVerite/gulp-lead/commit/27324d6ed5f3998e61054d511f715d6be7dba0e1))
+
+
+### Bug Fixes
+
+* Ensure project works with different streams ([#8](https://github.com/FotoVerite/gulp-lead/issues/8)) ([27324d6](https://github.com/FotoVerite/gulp-lead/commit/27324d6ed5f3998e61054d511f715d6be7dba0e1))
+* Use listenerCount API on streams ([27324d6](https://github.com/FotoVerite/gulp-lead/commit/27324d6ed5f3998e61054d511f715d6be7dba0e1))
+
+
+### Miscellaneous Chores
+
+* Normalize repository, dropping Node &lt;22.15.0 ([#12](https://github.com/FotoVerite/gulp-lead/issues/12)) ([761bf24](https://github.com/FotoVerite/gulp-lead/commit/761bf2442e1be0fbd5fce0be13d1c44038307a2d))
+
 ## [4.0.0](https://www.github.com/gulpjs/lead/compare/v3.0.0...v4.0.0) (2022-09-22)
 
 
